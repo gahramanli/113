@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+}
+.navbar{
+    margin: 0;
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    background-color: #212529;
+}
+.logo{
+    width: 50%;
+    text-align: start;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 6vh;
+    font-size: 20px;
+    color: white;
+    margin-left: -5%;
+    cursor: pointer;
+}
+.tabs{
+    width: 50%;
+    text-align: start;
+    height: 6vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    right: 100px;
+}
+.tabs ul{
+    list-style: none;
+    list-style-type: none;
+    margin-left:100px ;
+
+
+}
+.tabs ul li{
+    display: inline;
+    padding-left: 15px;
+    color: #FFFFFF8C;
+    font-weight: lighter;
+
+
+}
+.tabs ul li:hover{
+
+
+    color: #ffffffd0;
+    cursor: pointer;
+
+
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 35vh;
+    background-color: #0D6EFD;
+    text-align: start;
+}
+.second h1{
+    color: white;
+    font-size: 40px;
+}
+.second p{
+    font-size: 20px;
+    font-weight: lighter;
+    color: white    ;
+   margin-top: 10px;
+   text-align: center;
+}
+.btn{
+    background-color: white;
+    width: 160px;
+    height: 45px;
+    border: none;
+    border-radius: 3px;
+    font-size: 20px;
+    padding: 8px 16px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.third{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    flex-direction: column;
+}
+.third h2{
+    font-size: 32px;
+    font-weight: 600;
+    margin-right: 30.5%;
+}
+.third p{
+    font-size: 20px;
+    font-weight: lighter;
+}
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -6.5%;
+    
+    
+}
+.footer{
+    background-color: #212529;
+    width: 100%;
+    height: 12vh;
+
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.services{
+    width: 100%;
+    height: 40vh;
+    background-color: #F8F9FA;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    align-items: center ;
+    flex-direction: column;
+    margin-top: 14vh;
+
+}
+.services h3{
+    text-align: left;
+    margin-right: 30%;
+    font-size: 32px;
+    font-weight: 500;
+    
+}
+.services p{
+    font-size: 20px;
+    font-weight:lighter ;
+}
+.contact-us{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    text-align: flex-start;
+    align-items: center;
+    justify-content: center;
+}
+.contact-us h4{
+    text-align: left;
+    margin-right: 36%;
+    font-size: 32px;
+    font-weight: 500;
+    
+
+}
+.contact-us p{
+    font-size: 20px;
+    font-weight:lighter ;
+}
